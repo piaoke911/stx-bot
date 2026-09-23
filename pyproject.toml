@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stx-quant-bot"
+version = "1.0.0"
+description = "Stacks (STX/USDT) 永续合约多因子量化交易机器人"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "STX Bot" }]
+keywords = ["crypto", "trading", "quant", "stacks", "stx", "okx", "binance"]
+
+dependencies = [
+    "ccxt>=4.2.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "mypy>=1.8",
+    "ruff>=0.4",
+]
+
+[project.scripts]
+stx-bot = "main:main"
+
+# ---------- 工具配置 ----------
+
+[tool.setuptools]
+py-modules = [
+    "config",
+    "strategy",
+    "risk_manager",
+    "data_fetcher",
+    "executor",
+    "backtester",
+    "precision_utils",
+    "state_store",
+    "notifier",
+    "logging_setup",
+    "main",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "C4", "SIM"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true

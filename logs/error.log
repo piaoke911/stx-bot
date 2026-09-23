@@ -1,0 +1,265 @@
+2026-09-23 13:01:35,290 | ERROR    | stx_quant.main | [#1] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:02:35,707 | ERROR    | stx_quant.main | [#2] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:03:36,112 | ERROR    | stx_quant.main | [#3] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:04:36,699 | ERROR    | stx_quant.main | [#4] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:05:37,091 | ERROR    | stx_quant.main | [#5] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:06:37,525 | ERROR    | stx_quant.main | [#6] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:07:38,249 | ERROR    | stx_quant.main | [#7] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:08:38,610 | ERROR    | stx_quant.main | [#8] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:09:38,973 | ERROR    | stx_quant.main | [#9] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:10:39,327 | ERROR    | stx_quant.main | [#10] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:10:39,330 | ERROR    | stx_quant.notifier | [NOTIFY] 主循环异常（第 10 轮）：'RiskManager' object has no attribute 'is_trading_halted'
+2026-09-23 13:11:39,694 | ERROR    | stx_quant.main | [#11] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:12:40,046 | ERROR    | stx_quant.main | [#12] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:13:40,399 | ERROR    | stx_quant.main | [#13] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:14:40,785 | ERROR    | stx_quant.main | [#14] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:15:41,166 | ERROR    | stx_quant.main | [#15] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:16:41,554 | ERROR    | stx_quant.main | [#16] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:17:41,947 | ERROR    | stx_quant.main | [#17] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:18:42,329 | ERROR    | stx_quant.main | [#18] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:19:42,698 | ERROR    | stx_quant.main | [#19] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:20:43,070 | ERROR    | stx_quant.main | [#20] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:20:43,070 | ERROR    | stx_quant.notifier | [NOTIFY] 主循环异常（第 20 轮）：'RiskManager' object has no attribute 'is_trading_halted'
+2026-09-23 13:21:43,439 | ERROR    | stx_quant.main | [#21] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:22:43,817 | ERROR    | stx_quant.main | [#22] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:23:44,177 | ERROR    | stx_quant.main | [#23] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:24:44,794 | ERROR    | stx_quant.main | [#24] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:25:45,167 | ERROR    | stx_quant.main | [#25] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:26:45,526 | ERROR    | stx_quant.main | [#26] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:27:45,907 | ERROR    | stx_quant.main | [#27] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:28:46,313 | ERROR    | stx_quant.main | [#28] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:29:46,699 | ERROR    | stx_quant.main | [#29] 迭代执行异常（继续运行）: 'RiskManager' object has no attribute 'is_trading_halted'
+Traceback (most recent call last):
+  File "D:\Projects\stx-bot\main.py", line 188, in main
+    summary = executor.run_once()
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\stx-bot\executor.py", line 38, in run_once
+    if self.risk_manager.is_trading_halted():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RiskManager' object has no attribute 'is_trading_halted'. Did you mean: '_trading_halted'?
+2026-09-23 13:30:46,708 | ERROR    | stx_quant.main | 获取统计数据失败: 'RiskManager' object has no attribute 'get_statistics'
+2026-09-23 14:33:49,333 | ERROR    | stx_quant.main | 获取统计数据失败: 'RiskManager' object has no attribute 'get_statistics'

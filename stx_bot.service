@@ -1,0 +1,45 @@
+# ============================================================
+#  systemd 服务文件
+#  部署：
+#    sudo cp stx_bot.service /etc/systemd/system/
+#    sudo systemctl daemon-reload
+#    sudo systemctl enable stx_bot
+#    sudo systemctl start stx_bot
+#  查看日志：
+#    sudo journalctl -u stx_bot -f
+# ============================================================
+
+[Unit]
+Description=STX Trading Bot (Paper mode by default)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# ⚠️ 修改为你的实际用户名
+User=ubuntu
+# ⚠️ 修改为你的项目路径
+WorkingDirectory=/home/ubuntu/stx_bot
+
+# 环境变量（覆盖 .env 中的同名项）
+Environment="TRADING_MODE=paper"
+Environment="LOG_LEVEL=INFO"
+Environment="PYTHONUNBUFFERED=1"
+
+# 启动命令
+ExecStart=/home/ubuntu/stx_bot/venv/bin/python /home/ubuntu/stx_bot/main.py
+
+# 崩溃自动重启
+Restart=on-failure
+RestartSec=30
+
+# 日志（可被 journalctl 收集）
+StandardOutput=journal
+StandardError=journal
+
+# 安全加固
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
